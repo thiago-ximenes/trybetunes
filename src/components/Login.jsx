@@ -56,6 +56,7 @@ class Login extends Component {
                       placeholder="Nome de Usuário"
                     />
                     <Button
+                      type="submit"
                       onClick={ handleClickLogin }
                       disabled={ isDisabled }
                       data-testid="login-submit-button"
