@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import ReactLoading from 'react-loading';
 import { getUser } from '../../services/userAPI';
 import SearchArtist from './SearchArtist';
+import Loading from '../Loading';
 
 class Search extends Component {
   constructor() {
@@ -29,10 +29,7 @@ class Search extends Component {
       <div data-testid="page-search">
         {
           isLoading ? (
-            <>
-              <ReactLoading type="spokes" color="blue" height="20%" width="20%" />
-              <p>Carregando...</p>
-            </>
+            <Loading />
           )
             : <h2 data-testid="header-user-name">{ userName }</h2>
 
