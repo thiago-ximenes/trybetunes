@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Login from './components/Login';
-import Search from './components/Search';
+import Search from './components/search/Search';
 import Album from './components/Album';
 import Favorites from './components/Favorites';
 import Profile from './components/Profile';

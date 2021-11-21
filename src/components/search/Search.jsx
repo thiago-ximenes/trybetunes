@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactLoading from 'react-loading';
-import { getUser } from '../services/userAPI';
+import { getUser } from '../../services/userAPI';
+import SearchArtist from './SearchArtist';
 
 class Search extends Component {
   constructor() {
@@ -36,6 +37,7 @@ class Search extends Component {
             : <h2 data-testid="header-user-name">{ userName }</h2>
 
         }
+        <SearchArtist />
       </div>
     );
   }
