@@ -11,7 +11,7 @@ class Header extends Component {
           expand="lg"
           bg="primary"
           variant="dark"
-          className="justify-content-center"
+          className="justify-content-center mb-1"
         >
           <Nav justify variant="pills">
             <Nav.Item>

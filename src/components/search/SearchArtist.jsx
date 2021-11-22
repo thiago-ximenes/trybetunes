@@ -103,7 +103,7 @@ class SearchArtist extends Component {
                                     pathname: `/album/${artist.collectionId}`,
                                   } }
                                 >
-                                  Go somewhere
+                                  Ir para as músicas
                                 </Button>
                               </Card.Body>
                             </Card>
